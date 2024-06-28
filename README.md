@@ -66,7 +66,7 @@ npm i @tryforge/forge.db
     npm i better-sqlite3
     ```
     - **MySQL**
-      > *MySQL have got two versions, you can use either of them.*
+      > *MySQL has got two versions, you can use either of them.*
        - `MySQL`
          ```bash
          npm i mysql
@@ -79,7 +79,7 @@ npm i @tryforge/forge.db
     ```bash
     npm i postgres
     ```
-3. Now that you have installed your preferred DB package, now you have to connect it with ForgeDB and ForgeScript:
+3. Now that you have installed your preferred DB package, you'll now you have to connect it with ForgeDB and ForgeScript:
 ```js
 const { ForgeDB } = require("@tryforge/forge.db")
 
@@ -140,7 +140,7 @@ variableDelete */
 <h2 align="center">Credits</h2>
 
 *Thanks for reading till the end and using ForgeDB ;)* <br>
-This package was made by with love [aggelos](https://discord.com/users/637648484979441706), an awesome man who develops cool ForgeScript extensions.
+This package was made with love by [aggelos](https://discord.com/users/637648484979441706), an awesome man who develops cool ForgeScript extensions.
 
 Contributor | Contribution | Conatct
 -|-|-
