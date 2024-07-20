@@ -118,21 +118,20 @@ Congratulations, you have now successfully connected your database to ForgeDB an
 <p align="center">You are here because your an android user and have already followed on setting up <a href="https://docs.botforge.org/p/ForgeDB/#docs-22-host-your-bot-on-android">ForgeScript on android</a> and are using ACode & Termux.</p>
 
 1. You have to go in the `home` directory run this command:
-```bash
-mkdir .gyp
-```
+  ```bash
+  mkdir .gyp
+  ```
 2. Now you have to open ACode and open Termux's `home` directory and make a new file named `include.gypi`.
 3. Now open `include.gypi` and paste this code:
-```gypi
-{'variables':{'android_ndk_path': ''}}
-```
+  ```gypi
+  {'variables':{'android_ndk_path': ''}}
+  ```
 4. Now save the file and open Termux again.
 5. Now open the directory where you've setup your bot and run this command:
-```bash
-npm i @tryforge/forge.db
-```
-> [!IMPORTANT]
-> It is not recommended to store data on your device, using a VPS server or any other thing to host your bot is recommend.
+  ```bash
+  npm i @tryforge/forge.db
+  ```
+<strong>It is not recommended to store data on your device, using a VPS server or any other thing to host your bot is recommend.</strong>
 
 <h3 align="center">Events</h3><hr>
 
@@ -143,7 +142,7 @@ npm i @tryforge/forge.db
 - How to use them?
   > Now when you finish configuring your database, you will have to head over to the main file of your client and you will have to type this:
 
-```js
+  ```js
   const { ForgeClient } = require("@tryforge/forgescript")
   const { ForgeDB } = require("@tryforge/forge.db")
   
