@@ -145,18 +145,15 @@ Congratulations, you have now successfully connected your database to ForgeDB an
   ```js
   const { ForgeClient } = require("@tryforge/forgescript")
   const { ForgeDB } = require("@tryforge/forge.db")
-  
   const db = new ForgeDB({
       ...options? // The options you have for ForgeDB, if any.
       events: [] /* The events you want to use. 
       Available: connect, variableCreate, variableUpdate, variableDelete */
-  }) 
-  
+  })
   const client = new ForgeClient({
       ...options // The options you currently have
      extensions: [ db ]
   })
-  
   db.commands.add({
      type: "" // Available types: connect, variableCreate, variableUpdate, variableDelete
      code: `Your_Code_Goes_Here`
