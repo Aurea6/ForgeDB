@@ -13,6 +13,7 @@
    - [MongoDB installation](#mongodb-installation)
    - [Other installation](#other-installation)
    - [Android-installation](#android-installation)
+2. [Default Variables](#default-variables)
 3. [Events](#events)
 4. [Updating](https://github.com/tryforge/ForgeDB/blob/main/guides/how-to-update.md)
 5. [Documentation](https://docs.botforge.org/p/ForgeDB/)
@@ -133,6 +134,31 @@ Congratulations, you have now successfully connected your database to ForgeDB an
   ```
 <strong>It is not recommended to store data on your device, using a VPS server or any other thing to host your bot is recommend.</strong>
 
+<h3 align="center">Default variables</h3><hr>
+
+- What's this?
+  > Default Variables are a type of variable that are predifined in ForgeDB. These are variables in which you can set the default values of the variables manually. These are quite to what you can find in Projects Like [Aoi.JS](https://npmjs.com/package/aoi.js) and [BDFD](https://botdesignerdiscord.com). But there's a cstch these are optional to use.
+- Why should you use it?
+  > There are many benefits of using default variables. F.e. you've got a premium guild system. When your bot joins a new guild, the default value can be set to false. So you won't have to worry about writing a spaghetti code to just set the variable when the bot joins a new guild. Well thanks to this function, it's already done for you. Do you know what, you've saved yourself from cooking a spaghetti code and saved tons of time, and made your app efficient.
+- What're the requirements? Can I use it in any DB setup?
+  > Well yes, you can use it in any DB setup. The requirements are simple, you just need to use ForgeDB v2.0.0 or higher.
+- How do you use them?
+  > Well, they're pretty much easy-to-use, just like counting how many fingers you've got. You just head over to the main file of your client and add this:
+   ```js
+   // ForgeDB Default Variables
+   // You've to put this part after client initialization
+   ForgeDB.variables({
+   name: "value" 
+   })
+   ```
+  > Now you've made a default variable, but how do you use it? It's just as easy as herding cats, you go to your code and just do this withcraft:
+   ```js
+   /* Once again I'm assuming you've made all the setup*/
+   code: `
+   $getUserVar[name;userID;default value]
+   `
+   ```
+
 <h3 align="center">Events</h3><hr>
 
 - What are DB events?
@@ -172,3 +198,4 @@ Aditya|Descriptions for functions|[Discord](https://discord.com/users/9036815388
 Aurea|Made this cool ReadMe|[Discord](https://discord.com/users/976413539076026388) [GitHub](https://github.com/aurea6)
 Aayush|Fixed grammatical and spelling mistakes|[Discord](https://discord.com/users/1077766221929402378) [GitHub](https://github.com/aayush117)
 Koomball|Added Android installation|[Discord](https://discord.com/users/1095378481237475409) [GitHub](https://github.com/koomball)
+Econome|Guide for default variables|[Discord](https://discord.com/users/838105973985771520) [GitHub](https://github.com/project-econome)
