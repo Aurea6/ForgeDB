@@ -1,5 +1,5 @@
 <p align="center"><img src="https://cdn.discordapp.com/emojis/1185683362334134362.png?size=1024" alt="ForgeDB logo"></p>
-<h1 align="center">ForgeDB</h1><p align="center">An advanced DataBase extension for ForgeScript powered apps.</p>
+<h1 align="center">ForgeDB</h1><p align="center">Want to add a new advanced DataBase superpower to your ForgeScript app? Just type <code>npm i @tryforge/forgedb</code></p>
 
 <p align="center">
 <a href="https://github.com/tryforge/ForgeDB/"><img src="https://img.shields.io/github/package-json/v/tryforge/ForgeDB/main?label=@tryforge/forge.db&color=5c16d4" alt="@tryforge/forge.db"></a>
@@ -7,6 +7,7 @@
 <a href="https://discord.gg/hcJgjzPvqb"><img src="https://img.shields.io/discord/739934735387721768?logo=discord" alt="Discord"></a>
 </p>
 <h2 align="center">Contents</h2>
+<details><summary>Click to see the treasure trove of magical ingredients you'd like to see!</summary>
 
 1. Installation
    - [Effortless installation](#effortless-installation)
@@ -17,10 +18,11 @@
 3. [Events](#events)
 4. [Updating](https://github.com/tryforge/ForgeDB/blob/main/guides/how-to-update.md)
 5. [Documentation](https://docs.botforge.org/p/ForgeDB/)
-6. [Credits](#credits)
+6. [Credits](#credits)</details>
 <br>
 
 <h3 align="center">Effortless installation</h3><hr>
+<p align="center">Life feels hard right? Though we can't help much, but there's this, we can provide you, making the installation of this extension easier than finding a parking space in a mall on Black Friday.</p>
 
 1. Run the following command to install the required `npm packages`:
    ```bash
@@ -39,9 +41,10 @@
        ]
    })
    ```
-Congratulations, you have successfully connected your client to a local database.
 
+<p align="center">You've done it! Your client and database are now best friends, forever connected by a magical handshake.</p>
 <h3 align="center">MongoDB Installation</h3><hr>
+<p align="center">Want to conquer the world of data? Well your at the right place!</p>
 
 1. Run the following command to install the required `npm packages`:
    ```bash
@@ -63,10 +66,9 @@ Congratulations, you have successfully connected your client to a local database
        ]
    })
    ```
-Congratulations, you have successfully connected your client to a MongoDB database.
-
+<p align="center">Your MongoDB connection is now stronger than the bond between a cat and a laser pointer.</p>
 <h3 align="center">Other Installation</h3><hr>
-<p align="center">You're here because you want to try other DBs. So now just follow the steps below to set up your bot to work with other DBs:</p>
+<p align="center">Tired of the same old database blues? Ready to spice up your app's life with a new love? Follow these steps to find your bot's perfect database match:</p>
 
 1. You have to first install ForgeDB, so you just run this command in your terminal:
    ```bash
@@ -112,11 +114,10 @@ Congratulations, you have successfully connected your client to a MongoDB databa
        ]
    })
    ```
-
-Congratulations, you have now successfully connected your database to ForgeDB and your client.
+<p align="center">Congratulations, you've just orchestrated a cosmic connection between your client, ForgeDB, and your desired database! Your data is now safe in the hands of the intergalactic data overlords.</p>
 
 <h3 align="center">Android Installation</h3><hr>
-<p align="center">You are here because your an android user and have already followed on setting up <a href="https://docs.botforge.org/p/ForgeDB/#docs-22-host-your-bot-on-android">ForgeScript on android</a> and are using ACode & Termux.</p>
+<p align="center">Ah, a fellow Android adventurer! You've conquered ForgeScript on your mobile device using <a href="https://docs.botforge.org/p/ForgeDB/#docs-22-host-your-bot-on-android">ACode & Termux</a>, and now you're ready to embark on a new quest. Buckle up, because we're about to connect your app to something even more magical…</p>
 
 1. You have to go in the `home` directory run this command:
   ```bash
@@ -136,14 +137,21 @@ Congratulations, you have now successfully connected your database to ForgeDB an
 
 <h3 align="center">Default variables</h3><hr>
 
-- What's this?
-  > Default Variables are a type of variable that are predifined in ForgeDB. These are variables in which you can set the default values of the variables manually. These are quite to what you can find in Projects Like [Aoi.JS](https://npmjs.com/package/aoi.js) and [BDFD](https://botdesignerdiscord.com). But there's a cstch these are optional to use.
-- Why should you use it?
-  > There are many benefits of using default variables. F.e. you've got a premium guild system. When your bot joins a new guild, the default value can be set to false. So you won't have to worry about writing a spaghetti code to just set the variable when the bot joins a new guild. Well thanks to this function, it's already done for you. Do you know what, you've saved yourself from cooking a spaghetti code and saved tons of time, and made your app efficient.
-- What're the requirements? Can I use it in any DB setup?
-  > Well yes, you can use it in any DB setup. The requirements are simple, you just need to use ForgeDB v2.0.0 or higher.
-- How do you use them?
-  > Well, they're pretty much easy-to-use, just like counting how many fingers you've got. You just head over to the main file of your client and add this:
+<details><summary>What's this?</summary>
+
+> Default Variables are a type of variable that are predifined in ForgeDB. These are variables in which you can set the default values of the variables manually. These are quite to what you can find in Projects Like [Aoi.JS](https://npmjs.com/package/aoi.js) and [BDFD](https://botdesignerdiscord.com). But there's a cstch these are optional to use.
+</details>
+<details><summary>Why should you use it?</summary>
+   
+> There are many benefits of using default variables. F.e. you've got a premium guild system. When your bot joins a new guild, the default value can be set to false. So you won't have to worry about writing a spaghetti code to just set the variable when the bot joins a new guild. Well thanks to this function, it's already done for you. Do you know what, you've saved yourself from cooking a spaghetti code and saved tons of time, and made your app efficient.
+</details>
+<details><summary>What're the requirements? Can I use it in any DB setup?</summary>summary>
+
+> Well yes, you can use it in any DB setup. The requirements are simple, you just need to use ForgeDB v2.0.0 or higher.
+</details>
+<details><summary>How do you use them?</summary>
+
+> Well, they're pretty much easy-to-use, just like counting how many fingers you've got. You just head over to the main file of your client and add this:
    ```js
    // ForgeDB Default Variables
    // You've to put this part after client initialization
@@ -151,22 +159,26 @@ Congratulations, you have now successfully connected your database to ForgeDB an
    name: "value" 
    })
    ```
-  > Now you've made a default variable, but how do you use it? It's just as easy as herding cats, you go to your code and just do this withcraft:
+> Now you've made a default variable, but how do you use it? It's just as easy as herding cats, you go to your code and just do this withcraft:
    ```js
    /* Once again I'm assuming you've made all the setup*/
    code: `
    $getUserVar[name;userID;default value]
    `
    ```
-
+</details>
 <h3 align="center">Events</h3><hr>
+<details><summary>What are DB events?</summary>
 
-- What are DB events?
-  > DB events are the events which get triggered when certain activities happen in your DB.
-- How are they helpful in developing apps powered by ForgeScript?
-  > DB events are really helpful in developing apps powered by ForgeScript, as they help you in monitoring activity in your DB and improve your logs.
-- How to use them?
-  > Now when you finish configuring your database, you will have to head over to the main file of your client and you will have to type this:
+> DB events are the events which get triggered when certain activities happen in your DB.
+</details>
+<details><summary>How are they helpful in developing apps powered by ForgeScript?</summary>
+
+> DB events are really helpful in developing apps powered by ForgeScript, as they help you in monitoring activity in your DB and improve your logs.
+</details>
+<details><summary>How to use them?</summary>
+
+> Now when you finish configuring your database, you will have to head over to the main file of your client and you will have to type this:
 
   ```js
   const { ForgeClient } = require("@tryforge/forgescript")
@@ -185,7 +197,7 @@ Congratulations, you have now successfully connected your database to ForgeDB an
      code: `Your_Code_Goes_Here`
   })
   ```
-
+</details>
 <h2 align="center">Credits</h2>
 
 *Thanks for reading till the end and using ForgeDB ;)* <br>
@@ -199,3 +211,11 @@ Aurea|Made this cool ReadMe|[Discord](https://discord.com/users/9764135390760263
 Aayush|Fixed grammatical and spelling mistakes|[Discord](https://discord.com/users/1077766221929402378) [GitHub](https://github.com/aayush117)
 Koomball|Added Android installation|[Discord](https://discord.com/users/1095378481237475409) [GitHub](https://github.com/koomball)
 Econome|Guide for default variables|[Discord](https://discord.com/users/838105973985771520) [GitHub](https://github.com/project-econome)
+<h2 align="center">Star History</h2>
+<a href="https://star-history.com/#tryforge/ForgeDB&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tryforge/ForgeDB&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tryforge/ForgeDB&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tryforge/ForgeDB&type=Date" />
+ </picture>
+</a>
