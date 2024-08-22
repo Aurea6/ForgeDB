@@ -9,6 +9,7 @@
 <h2 align="center">Contents</h2>
 <details><summary>Click to see the treasure trove of magical ingredients you'd like to see!</summary>
 
+
 1. Installation
    - [Effortless installation](#effortless-installation)
    - [MongoDB installation](#mongodb-installation)
@@ -139,19 +140,23 @@
 
 <details><summary>What's this?</summary>
 
-> Default Variables are a type of variable that are predifined in ForgeDB. These are variables in which you can set the default values of the variables manually. These are quite to what you can find in Projects Like [Aoi.JS](https://npmjs.com/package/aoi.js) and [BDFD](https://botdesignerdiscord.com). But there's a cstch these are optional to use.
+   
+   > Default Variables are a type of variable that are predifined in ForgeDB. These are variables in which you can set the default values of the variables manually. These are quite to what you can find in Projects Like [Aoi.JS](https://npmjs.com/package/aoi.js) and [BDFD](https://botdesignerdiscord.com). But there's a cstch these are optional to use.
 </details>
 <details><summary>Why should you use it?</summary>
    
-> There are many benefits of using default variables. F.e. you've got a premium guild system. When your bot joins a new guild, the default value can be set to false. So you won't have to worry about writing a spaghetti code to just set the variable when the bot joins a new guild. Well thanks to this function, it's already done for you. Do you know what, you've saved yourself from cooking a spaghetti code and saved tons of time, and made your app efficient.
+   
+   > There are many benefits of using default variables. F.e. you've got a premium guild system. When your bot joins a new guild, the default value can be set to false. So you won't have to worry about writing a spaghetti code to just set the variable when the bot joins a new guild. Well thanks to this function, it's already done for you. Do you know what, you've saved yourself from cooking a spaghetti code and saved tons of time, and made your app efficient.
 </details>
 <details><summary>What're the requirements? Can I use it in any DB setup?</summary>summary>
 
-> Well yes, you can use it in any DB setup. The requirements are simple, you just need to use ForgeDB v2.0.0 or higher.
+   
+   > Well yes, you can use it in any DB setup. The requirements are simple, you just need to use ForgeDB v2.0.0 or higher.
 </details>
 <details><summary>How do you use them?</summary>
-
-> Well, they're pretty much easy-to-use, just like counting how many fingers you've got. You just head over to the main file of your client and add this:
+   
+   
+   > Well, they're pretty much easy-to-use, just like counting how many fingers you've got. You just head over to the main file of your client and add this:
    ```js
    // ForgeDB Default Variables
    // You've to put this part after client initialization
@@ -159,7 +164,8 @@
    name: "value" 
    })
    ```
-> Now you've made a default variable, but how do you use it? It's just as easy as herding cats, you go to your code and just do this withcraft:
+
+   > Now you've made a default variable, but how do you use it? It's just as easy as herding cats, you go to your code and just do this withcraft:
    ```js
    /* Once again I'm assuming you've made all the setup*/
    code: `
@@ -170,15 +176,18 @@
 <h3 align="center">Events</h3><hr>
 <details><summary>What are DB events?</summary>
 
-> DB events are the events which get triggered when certain activities happen in your DB.
+   
+   > DB events are the events which get triggered when certain activities happen in your DB.
 </details>
 <details><summary>How are they helpful in developing apps powered by ForgeScript?</summary>
 
-> DB events are really helpful in developing apps powered by ForgeScript, as they help you in monitoring activity in your DB and improve your logs.
+   
+   > DB events are really helpful in developing apps powered by ForgeScript, as they help you in monitoring activity in your DB and improve your logs.
 </details>
 <details><summary>How to use them?</summary>
 
-> Now when you finish configuring your database, you will have to head over to the main file of your client and you will have to type this:
+   
+   > Now when you finish configuring your database, you will have to head over to the main file of your client and you will have to type this:
 
   ```js
   const { ForgeClient } = require("@tryforge/forgescript")
@@ -198,10 +207,12 @@
   })
   ```
 </details>
+
 <h2 align="center">Credits</h2>
 
 *Thanks for reading till the end and using ForgeDB ;)* <br>
 This package was made with love by [aggelos](https://discord.com/users/637648484979441706), an awesome man who develops cool ForgeScript extensions.
+
 
 Contributor | Contribution | Contact
 -|-|-
@@ -211,6 +222,9 @@ Aurea|Made this cool ReadMe|[Discord](https://discord.com/users/9764135390760263
 Aayush|Fixed grammatical and spelling mistakes|[Discord](https://discord.com/users/1077766221929402378) [GitHub](https://github.com/aayush117)
 Koomball|Added Android installation|[Discord](https://discord.com/users/1095378481237475409) [GitHub](https://github.com/koomball)
 Econome|Guide for default variables|[Discord](https://discord.com/users/838105973985771520) [GitHub](https://github.com/project-econome)
+
+<br>
+
 <h2 align="center">Star History</h2>
 <a href="https://star-history.com/#tryforge/ForgeDB&Date">
  <picture>
