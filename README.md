@@ -44,7 +44,8 @@
    ```
 
 <p align="center">You've done it! Your client and database are now best friends, forever connected by a magical handshake.</p>
-<br>
+
+---
 <h3 align="center">MongoDB Installation</h3><hr>
 <p align="center">Want to conquer the world of data? Well your at the right place!</p>
 
@@ -117,7 +118,8 @@
    })
    ```
 <p align="center">Congratulations, you've just orchestrated a cosmic connection between your client, ForgeDB, and your desired database! Your data is now safe in the hands of the intergalactic data overlords.</p>
-<br>
+
+---
 <h3 align="center">Android Installation</h3><hr>
 <p align="center">Ah, a fellow Android adventurer! You've conquered ForgeScript on your mobile device using <a href="https://docs.botforge.org/p/ForgeDB/#docs-22-host-your-bot-on-android">ACode & Termux</a>, and now you're ready to embark on a new quest. Buckle up, because we're about to connect your app to something even more magical…</p>
 
