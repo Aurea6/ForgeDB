@@ -25,11 +25,13 @@
 <h3 align="center">Effortless installation</h3><hr>
 <p align="center">Life feels hard right? Though we can't help much, but there's this, we can provide you, making the installation of this extension easier than finding a parking space in a mall on Black Friday.</p>
 
-1. Run the following command to install the required `npm packages`:
-   ```bash
-   npm i @tryforge/forge.db sqlite3
-   ```
-2. Now, in your client initialization:
+1. Summon the npm package spirits with the following incantation in your terminal:
+```bash
+npm install @tryforge/forge.db sqlite3
+```
+Watch as the magical packages appear in your project!
+
+2. Alright, let's get this show on the road! It's time to initialize ForgeDB with Forgescript and bring your app to life.:
    ```js
    const { ForgeClient } = require("@tryforge/forgescript")
    const { ForgeDB } = require("@tryforge/forge.db")
@@ -49,11 +51,14 @@
 <h3 align="center">MongoDB Installation</h3><hr>
 <p align="center">Want to conquer the world of data? Well your at the right place!</p>
 
-1. Run the following command to install the required `npm packages`:
-   ```bash
-   npm i @tryforge/forge.db mongodb
-   ```
-2. Now, in your client initialization:
+1. Ready to use up some npm magic? Cast the following spell in your terminal to summon the required packages:
+
+```bash
+npm install @tryforge/forge.db mongodb
+```
+Watch as the mystical packages materialize right before your eyes!
+
+2. Let's get this show on the stage! It's time to initialize your client and connect it to the magical realms of ForgeDB and MongoDB:
    ```js
    const { ForgeClient } = require("@tryforge/forgescript")
    const { ForgeDB } = require("@tryforge/forge.db")
@@ -73,17 +78,18 @@
 <h3 align="center">Other Installation</h3><hr>
 <p align="center">Tired of the same old database blues? Ready to spice up your app's life with a new love? Follow these steps to find your bot's perfect database match:</p>
 
-1. You have to first install ForgeDB, so you just run this command in your terminal:
+1. Summon the mighty ForgeDB dragon with this incantation:
    ```bash
    npm i @tryforge/forge.db
    ```
-2. Now that you've installed ForgeDB, you'll now have to install the DB package you want to use. Here are the ones ForgeDB currently supports:
+   Watch as the ForgeDB dragon descends from the heavens, ready to serve your app's data needs!
+2. Choose your database weapon! ForgeDB supports a variety of powerful databases. Here are the options ForgeDB supports:
    - **Better Sqlite3**
      ```bash
      npm i better-sqlite3
      ```
    - **MySQL**
-     > *MySQL has two versions, you can use either of them.*
+     > *The classic warrior of relational databases comes in two flavours:*
      - `MySQL`
        ```bash
        npm i mysql
@@ -92,11 +98,14 @@
        ```bash
        npm i mysql2
        ```
-    - **Postgres**
-      ```bash
-      npm i postgres
-      ```
-3. Now that you have installed your preferred DB package, you now have to connect it with ForgeDB and ForgeScript:
+     > *Choose your flavour wisely, and your data will be in good hands!*
+   - **Postgres**
+     ```bash
+     npm i postgres
+     ```
+3. Connect your database weapon to ForgeDB and ForgeScript! It's about time to forge a powerful alliance between your chosen database and the mighty ForgeDB. Follow the instructions for your specific database to complete the connection.
+
+   Remember, a strong alliance will ensure your data is protected and your quests are successful!:
    ```js
    const { ForgeClient } = require("@tryforge/forgescript")
    const { ForgeDB } = require("@tryforge/forge.db")
